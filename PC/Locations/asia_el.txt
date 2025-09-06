@@ -1,0 +1,49 @@
+﻿Αζερμπαϊτζάν|0|asia/azerbaijan.txt
+Ανατολικό Τιμόρ|0|asia/democratic_republic_of_timor-leste.txt
+Αρμενία|0|asia/armenia.txt
+Αφγανιστάν|0|asia/afghanistan.txt
+Βιετνάμ|0|asia/vietnam.txt
+Βόρεια Κορέα|0|asia/north_korea.txt
+Γάζα|0|asia/gaza.txt
+Γεωργία|0|asia/georgia_asia.txt
+Ένωση της Μιανμάρ|0|asia/union_of_myanmar.txt
+Ηνωμένα Αραβικά Εμιράτα|0|asia/united_arab_emirates.txt
+Ιαπωνία|0|asia/japan.txt
+Ινδία|0|asia/india.txt
+Ινδονησία|0|asia/indonesia.txt
+Ιορδανία|0|asia/jordan.txt
+Ιράκ|0|asia/iraq.txt
+Ιράν|0|asia/iran.txt
+Ισραήλ|0|asia/israel.txt
+Καζακστάν|0|asia/kazakhstan.txt
+Καμπότζη|0|asia/cambodia.txt
+Κατάρ|0|asia/qatar.txt
+Κίνα|0|asia/china.txt
+Κιργιστάν|0|asia/kyrgyzstan.txt
+Κουβέιτ|0|asia/kuwait.txt
+Λάος|0|asia/laos.txt
+Λίβανος|0|asia/lebanon.txt
+Μακάο|0|asia/macau.txt
+Μαλαισία|0|asia/malaysia.txt
+Μογγολία|0|asia/mongolia.txt
+Μπανγκλαντές|0|asia/bangladesh.txt
+Μπαχρέιν|0|asia/bahrain.txt
+Μπουτάν|0|asia/bhutan.txt
+Μπρουνέι|0|asia/brunei.txt
+Νεπάλ|0|asia/nepal.txt
+Νότια Λορέα|0|asia/south_korea.txt
+Ομάν|0|asia/oman.txt
+Ουζμπεκιστάν|0|asia/uzbekistan.txt
+Πακιστάν|0|asia/pakistan.txt
+Ρωσική Ομοσπονδία|0|asia/russian_federation.txt
+Σαουδική Αραβία|0|asia/saudi_arabia.txt
+Σιγκαπούρη|0|asia/singapore.txt
+Σρι Λάνκα|0|asia/sri_lanka.txt
+Συρία|0|asia/syria.txt
+Ταϊβάν|0|asia/taiwan.txt
+Ταϊλάνδη|0|asia/thailand.txt
+Τατζικιστάν|0|asia/tajikistan.txt
+Τουρκία|0|asia/turkey.txt
+Τουρκμενιστάν|0|asia/turkmenistan.txt
+Υεμένη|0|asia/yemen.txt
+Φιλιππίνες|0|asia/philippines.txt

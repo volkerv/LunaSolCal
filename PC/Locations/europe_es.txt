@@ -1,0 +1,48 @@
+Albania|0|europe/albania.txt
+Alemania|1|europe/germany_states.txt
+Andorra|0|europe/andorra_cities.txt
+Austria|0|europe/austria_cities.txt
+Bielorrusia|0|europe/belarus.txt
+Bélgica|0|europe/belgium_cities.txt
+Bosnia y Herzegovina|0|europe/bosnia_and_herzegovina.txt
+Bulgaria|0|europe/bulgaria.txt
+Croatia|0|europe/croatia.txt
+Chipre|0|europe/cyprus.txt
+Dinamarca|0|europe/denmark_cities.txt
+Eslovaquia|0|europe/slovakia.txt
+Eslovenia|0|europe/slovenia.txt
+España|0|europe/spain_cities.txt
+Estonia|0|europe/estonia.txt
+Finlandia|0|europe/finland_cities.txt
+Faroe Islands|0|europe/faroe_islands.txt
+Francia|1|europe/france_states.txt
+Gibraltar|0|europe/gibraltar.txt
+Grecia|0|europe/greece_cities.txt
+Guernsey|0|europe/guernsey.txt
+Hungría|0|europe/hungary.txt
+Islandia|0|europe/iceland_cities.txt
+Irlanda|0|europe/ireland_cities.txt
+Isla de Man|0|europe/isle_of_man.txt
+Italia|0|europe/italy_cities.txt
+Jersey|0|europe/jersey.txt
+Letonia|0|europe/latvia.txt
+Liechtenstein|0|europe/liechtenstein_cities.txt
+Lituania|0|europe/lithuania.txt
+Luxemburgo|0|europe/luxembourg_cities.txt
+Malta|0|europe/malta_cities.txt
+Moldavia|0|europe/moldova.txt
+Mónaco|0|europe/monaco.txt
+Montenegro|0|europe/montenegro.txt
+Noruega|0|europe/norway_cities.txt
+Países Bajos|0|europe/netherlands_cities.txt
+Polonia|0|europe/poland.txt
+Portugal|0|europe/portugal_cities.txt
+Reino Unido|0|europe/great_britain_cities.txt
+República Checa|0|europe/czech_republic.txt
+República de Macedonia|0|europe/macedonia.txt
+Rumania|0|europe/romania.txt
+Rusia|0|europe/russian_federation_eu.txt
+Serbia|0|europe/serbia.txt
+Suecia|0|europe/sweden_cities.txt
+Suiza|0|europe/switzerland_cities.txt
+Ucrania|0|europe/ukraine.txt

@@ -1,0 +1,51 @@
+Alabama|north_america/usa/alabama.txt
+Alaska|north_america/usa/alaska.txt
+Arizona|north_america/usa/arizona.txt
+Arkansas|north_america/usa/arkansas.txt
+California|north_america/usa/california.txt
+Colorado|north_america/usa/colorado.txt
+Connecticut|north_america/usa/connecticut.txt
+Delaware|north_america/usa/delaware.txt
+District of Columbia|north_america/usa/district_of_columbia.txt
+Florida|north_america/usa/florida.txt
+Georgia|north_america/usa/georgia.txt
+Hawaii|north_america/usa/hawaii.txt
+Idaho|north_america/usa/idaho.txt
+Illinois|north_america/usa/illinois.txt
+Indiana|north_america/usa/indiana.txt
+Iowa|north_america/usa/iowa.txt
+Kansas|north_america/usa/kansas.txt
+Kentucky|north_america/usa/kentucky.txt
+Louisiana|north_america/usa/louisiana.txt
+Maine|north_america/usa/maine.txt
+Maryland|north_america/usa/maryland.txt
+Massachusetts|north_america/usa/massachusetts.txt
+Michigan|north_america/usa/michigan.txt
+Minnesota|north_america/usa/minnesota.txt
+Mississippi|north_america/usa/mississippi.txt
+Missouri|north_america/usa/missouri.txt
+Montana|north_america/usa/montana.txt
+Nebraska|north_america/usa/nebraska.txt
+Nevada|north_america/usa/nevada.txt
+New Hampshire|north_america/usa/new_hampshire.txt
+New Jersey|north_america/usa/new_jersey.txt
+New Mexico|north_america/usa/new_mexico.txt
+New York|north_america/usa/new_york.txt
+North Carolina|north_america/usa/north_carolina.txt
+North Dakota|north_america/usa/north_dakota.txt
+Ohio|north_america/usa/ohio.txt
+Oklahoma|north_america/usa/oklahoma.txt
+Oregon|north_america/usa/oregon.txt
+Pennsylvania|north_america/usa/pennsylvania.txt
+Rhode Island|north_america/usa/rhode_island.txt
+South Carolina|north_america/usa/south_carolina.txt
+South Dakota|north_america/usa/south_dakota.txt
+Tennessee|north_america/usa/tennessee.txt
+Texas|north_america/usa/texas.txt
+Utah|north_america/usa/utah.txt
+Vermont|north_america/usa/vermont.txt
+Virginia|north_america/usa/virginia.txt
+Washington|north_america/usa/washington.txt
+West Virginia|north_america/usa/west_virginia.txt
+Wisconsin|north_america/usa/wisconsin.txt
+Wyoming|north_america/usa/wyoming.txt

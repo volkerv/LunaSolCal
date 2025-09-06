@@ -1,0 +1,13 @@
+﻿Argentine|0|south_america/argentina.txt
+Bolivie|0|south_america/bolivia.txt
+Brésil|0|south_america/brazil.txt
+Chili|0|south_america/chile.txt
+Colombie|0|south_america/colombia.txt
+Équateur|0|south_america/ecuador.txt
+Guyane|0|south_america/french_guiana.txt
+Guyana|0|south_america/guyana.txt
+Paraguay|0|south_america/paraguay.txt
+Pérou|0|south_america/peru.txt
+Suriname|0|south_america/suriname.txt
+Uruguay|0|south_america/uruguay.txt
+Venezuela|0|south_america/venezuela.txt

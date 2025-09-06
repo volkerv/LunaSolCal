@@ -1,0 +1,13 @@
+﻿Αργεντινή|0|south_america/argentina.txt
+Βενεζουέλα|0|south_america/venezuela.txt
+Βολιβία|0|south_america/bolivia.txt
+Βραζιλία|0|south_america/brazil.txt
+Γαλία Guiana|0|south_america/french_guiana.txt
+Γουιάνα|0|south_america/guyana.txt
+Εκουαδόρ|0|south_america/ecuador.txt
+Κολομβία|0|south_america/colombia.txt
+Ουρουγουάη|0|south_america/uruguay.txt
+Παραγουάη|0|south_america/paraguay.txt
+Περού|0|south_america/peru.txt
+Σουρινάμ|0|south_america/suriname.txt
+Χιλή|0|south_america/chile.txt

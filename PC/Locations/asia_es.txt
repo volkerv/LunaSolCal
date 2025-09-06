@@ -1,0 +1,50 @@
+﻿Afganistán|0|asia/afghanistan.txt
+Arabia Saudí|0|asia/saudi_arabia.txt
+Armenia|0|asia/armenia.txt
+Azerbaiyán|0|asia/azerbaijan.txt
+Baréin|0|asia/bahrain.txt
+Bangladesh|0|asia/bangladesh.txt
+Bután|0|asia/bhutan.txt
+Brunéi|0|asia/brunei.txt
+Camboya|0|asia/cambodia.txt
+China|0|asia/china.txt
+Corea del Norte|0|asia/north_korea.txt
+Corea del Sur|0|asia/south_korea.txt
+Emiratos Árabes Unidos|0|asia/united_arab_emirates.txt
+Filipinas|0|asia/philippines.txt
+Gaza|0|asia/gaza.txt
+Georgia|0|asia/georgia_asia.txt
+India|0|asia/india.txt
+Indonesia|0|asia/indonesia.txt
+Irak|0|asia/iraq.txt
+Irán|0|asia/iran.txt
+Israel|0|asia/israel.txt
+Japón|0|asia/japan.txt
+Jordania|0|asia/jordan.txt
+Kazajistán[|0|asia/kazakhstan.txt
+Kuwait|0|asia/kuwait.txt
+Kirguistán|0|asia/kyrgyzstan.txt
+Laos|0|asia/laos.txt
+Líbano|0|asia/lebanon.txt
+Macao|0|asia/macau.txt
+Malasia|0|asia/malaysia.txt
+Mongolia|0|asia/mongolia.txt
+Nepal|0|asia/nepal.txt
+Omán|0|asia/oman.txt
+Pakistán|0|asia/pakistan.txt
+Qatar|0|asia/qatar.txt
+Rusia|0|asia/russian_federation.txt
+Singapur|0|asia/singapore.txt
+Siria|0|asia/syria.txt
+Sri Lanka|0|asia/sri_lanka.txt
+Taiwán|0|asia/taiwan.txt
+Tayikistán|0|asia/tajikistan.txt
+Tailandia|0|asia/thailand.txt
+Timor Oriental|0|asia/democratic_republic_of_timor-leste.txt
+Turquía|0|asia/turkey.txt
+Turkmenistán|0|asia/turkmenistan.txt
+Unión de Myanmar|0|asia/union_of_myanmar.txt
+Uzbekistán|0|asia/uzbekistan.txt
+Vietnam|0|asia/vietnam.txt
+Yemen|0|asia/yemen.txt
+

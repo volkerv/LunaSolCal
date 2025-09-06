@@ -1,0 +1,49 @@
+﻿Αλβανία|0|europe/albania.txt
+Ανδόρα|0|europe/andorra_cities.txt
+Αυστρία|0|europe/austria_cities.txt
+Βέλγιο|0|europe/belgium_cities.txt
+Βοσνία - Ερζεγοβίνη|0|europe/bosnia_and_herzegovina.txt
+Βουλγαρία|0|europe/bulgaria.txt
+Γαλλία|1|europe/france_states.txt
+Γερμανία|1|europe/germany_states.txt
+Γιβραλτάρ|0|europe/gibraltar.txt
+Γκέρνσεϋ|0|europe/guernsey.txt
+Δανία|0|europe/denmark_cities.txt
+Δημοκρατία της Τσεχίας|0|europe/czech_republic.txt
+Ελβετία|0|europe/switzerland_cities.txt
+Ελλάδα|0|europe/greece_cities.txt
+Εσθονία|0|europe/estonia.txt
+Ηνωμένο Βασίλειο|0|europe/great_britain_cities.txt
+Ιρλανδία|0|europe/ireland_cities.txt
+Ισλανδία|0|europe/iceland_cities.txt
+Ισπανία|0|europe/spain_cities.txt
+Ιταλία|0|europe/italy_cities.txt
+Κροατία|0|europe/croatia.txt
+Κύπρος|0|europe/cyprus.txt
+Λετονία|0|europe/latvia.txt
+Λευκορωσία|0|europe/belarus.txt
+Λιθουανία|0|europe/lithuania.txt
+Λίχτενσταϊν|0|europe/liechtenstein_cities.txt
+Λουξεμβούργο|0|europe/luxembourg_cities.txt
+Μάλτα|0|europe/malta_cities.txt
+Μαυροβούνιο|0|europe/montenegro.txt
+Μεγάλη Βρετανία|0|europe/great_britain_cities.txt
+Μολδαβία|0|europe/moldova.txt
+Μονακό|0|europe/monaco.txt
+Νήσοι Φερόε|0|europe/faroe_islands.txt
+Νήσος του Μαν|0|europe/isle_of_man.txt
+Νορβηγία|0|europe/norway_cities.txt
+Ολλανδία|0|europe/netherlands_cities.txt
+Ουγγαρία|0|europe/hungary.txt
+Ουκρανία|0|europe/ukraine.txt
+Πολωνία|0|europe/poland.txt
+Πορτογαλία|0|europe/portugal_cities.txt
+Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας|0|europe/macedonia.txt
+Ρουμανία|0|europe/romania.txt
+Ρωσική Ομοσπονδία|0|europe/russian_federation_eu.txt
+Σερβία|0|europe/serbia.txt
+Σλοβακία|0|europe/slovakia.txt
+Σλοβενία|0|europe/slovenia.txt
+Σουηδία|0|europe/sweden_cities.txt
+Τζέρσεϊ|0|europe/jersey.txt
+Φιλανδία|0|europe/finland_cities.txt

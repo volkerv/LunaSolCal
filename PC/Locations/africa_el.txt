@@ -1,0 +1,58 @@
+﻿Αγία Ελένη|0|africa/st_helena.txt
+Αγκόλα|0|africa/angola.txt
+Αίγυπτος|0|africa/egypt.txt
+Αιθιοπία|0|africa/ethiopia.txt
+Ακτή Ελεφαντοστού|0|africa/ivory_coast.txt
+Αλγερία|0|africa/algeria.txt
+Γκάμπια|0|africa/gambia.txt
+Γκαμπόν|0|africa/gabon.txt
+Γκάνα|0|africa/ghana.txt
+Γουινέα|0|africa/guinea.txt
+Γουινέα-Μπισσάου|0|africa/guinea-bissau.txt
+Δυτική Σαχάρα|0|africa/western_sahara.txt
+Ερυθραία|0|africa/eritrea.txt
+Ζάμπια|0|africa/zambia.txt
+Ζιμπάμπουε|0|africa/zimbabwe.txt
+Ζουαζιλάνδη|0|africa/swaziland.txt
+Ισημερινή Γουινέα|0|africa/equatorial_guinea.txt
+Καμερούν|0|africa/cameroon.txt
+Κανάριοι Νήσοι|0|africa/canary_islands.txt
+Κεντροαφρικανική Δημοκρατία|0|africa/central_african_republic.txt
+Κένυα|0|africa/kenya.txt
+Κομόρες|0|africa/comoros.txt
+Κονγκό|0|africa/congo.txt
+Λαϊκή Δημοκρατία του Κονγκό|0|africa/democratic_republic_of_the_congo.txt
+Λεσόθο|0|africa/lesotho.txt
+Λιβερία|0|africa/liberia.txt
+Λιβύη|0|africa/libya.txt
+Μαγιότ|0|africa/mayotte.txt
+Μαδαγασκάρη|0|africa/madagascar.txt
+Μαλάουι|0|africa/malawi.txt
+Μάλι|0|africa/mali.txt
+Μαρόκο|0|africa/morocco.txt
+Μαυρίκιος|0|africa/mauritius.txt
+Μαυριτανία|0|africa/mauritania.txt
+Μοζαμβίκη|0|africa/mozambique.txt
+Μπενίν|0|africa/benin.txt
+Μποτσουάνα|0|africa/botswana.txt
+Μπουρκίνα Φάσο|0|africa/burkina_faso.txt
+Μπουρούντι|0|africa/burundi.txt
+Ναμίμπια|0|africa/namibia.txt
+Νίγηρας|0|africa/niger.txt
+Νιγηρία|0|africa/nigeria.txt
+Νότια Αφρική|0|africa/south_africa.txt
+Ουγκάντα|0|africa/uganda.txt
+Πράσινο Ακρωτήρι|0|africa/cape_verde.txt
+Ρεουνιόν|0|africa/reunion.txt
+Ρουάντα|0|africa/rwanda.txt
+Σάο Τομέ και Πρίνσιπε|0|africa/sao_tome_and_principe.txt
+Σενεγάλη|0|africa/senegal.txt
+Σεϋχέλλες|0|africa/seychelles.txt
+Σιέρα Λεόνε|0|africa/sierra_leone.txt
+Σομαλία|0|africa/somalia.txt
+Σουδάν|0|africa/sudan.txt
+Τανζανία|0|africa/united_republic_of_tanzania.txt
+Τζιμπουτί|0|africa/djibouti.txt
+Τόγκο|0|africa/togo.txt
+Τσαντ|0|africa/chad.txt
+Τυνησία|0|africa/tunisia.txt

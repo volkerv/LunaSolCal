@@ -1,0 +1,22 @@
+Alsace|europe/france/alsace.txt
+Aquitaine|europe/france/aquitaine.txt
+Auvergne|europe/france/auvergne.txt
+Basse-Normandie|europe/france/basse-normandie.txt
+Bourgogne|europe/france/bourgogne.txt
+Bretagne|europe/france/bretagne.txt
+Centre|europe/france/centre.txt
+Champagne-Ardenne|europe/france/champagne-ardenne.txt
+Corse|europe/france/corse.txt
+Franche-Comté|europe/france/franche-comte.txt
+Haute-Normandie|europe/france/haute-normandie.txt
+Île-de-France|europe/france/ile-de-france.txt
+Languedoc-Roussillon|europe/france/languedoc-roussillon.txt
+Limousin|europe/france/limousin.txt
+Lorraine|europe/france/lorraine.txt
+Midi-Pyrénées|europe/france/midi-pyrenees.txt
+Nord-Pas-de-Calais|europe/france/nord-pas-de-calais.txt
+Pays de la Loire|europe/france/pays-de-la-loire.txt
+Picardie|europe/france/picardie.txt
+Poitou-Charentes|europe/france/poitou-charentes.txt
+Provence-Alpes-Côte d’Azur|europe/france/provence-alpes-cote-d-azur.txt
+Rhône-Alpes|europe/france/rhone-alpes.txt

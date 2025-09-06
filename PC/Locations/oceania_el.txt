@@ -1,0 +1,18 @@
+﻿Ανεξάρτητο Κράτος των Σαμόα|0|oceania/independent_state_of_samoa.txt
+Αυστραλία|0|oceania/australia.txt
+Βανουάτου|0|oceania/vanuatu.txt
+Γαλλική Πολυνησία|0|oceania/french_polynesia.txt
+Γκουάμ|0|oceania/guam.txt
+Γουάλις και Φουτούνα|0|oceania/wallis_and_futuna.txt
+Δημοκρατία του Παλάου|0|oceania/republic_of_palau.txt
+Κιριμπάτι|0|oceania/kiribati.txt
+Νέα Ζηλανδία|0|oceania/new_zealand.txt
+Νέα Καληδονία|0|oceania/new_caledonia.txt
+Νήσοι Κουκ|0|oceania/cook_islands.txt
+Νήσοι Μάρσαλ|0|oceania/marshall_islands.txt
+Νήσοι Σολομώντα|0|oceania/solomon_islands.txt
+Νήσος Νόρφολκ|0|oceania/norfolk_island.txt
+Νιούε|0|oceania/niue.txt
+Ομόσπονδες Πολιτείες της Μικρονησίας|0|oceania/federated_states_of_micronesia.txt
+Παπούα Νέα Γουινέα|0|oceania/papua_new_guinea.txt
+Φίτζι|0|oceania/fiji.txt

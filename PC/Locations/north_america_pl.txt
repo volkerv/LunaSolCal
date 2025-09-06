@@ -1,0 +1,31 @@
+Antigua i Barbuda|0|north_america/antigua_and_barbuda.txt
+Antyle Holenderskie|0|north_america/netherlands_antilles.txt
+Bahamy|0|north_america/bahamas.txt
+Barbados|0|north_america/barbados.txt
+Belize|0|north_america/belize.txt
+Bermudy|0|north_america/bermuda.txt
+Brytyjskie Wyspy Dziewicze|0|north_america/british_virgin_islands.txt
+Costa Rica|0|north_america/costa_rica.txt
+Dominika|0|north_america/dominica.txt
+Dominikana|0|north_america/dominican_republic.txt
+Federation of Saint Kitts and Nevis|0|north_america/federation_of_saint_kitts_and_nevis.txt
+Grenlandia|0|north_america/greenland.txt
+Grenada|0|north_america/grenada.txt
+Guatemala|0|north_america/guatemala.txt
+Gwadelupa|0|north_america/guadeloupe.txt
+Haiti|0|north_america/haiti.txt
+Honduras|0|north_america/honduras.txt
+Jamajka|0|north_america/jamaica.txt
+Kanada|0|north_america/canada.txt
+Kuba|0|north_america/cuba.txt
+Martynika|0|north_america/martinique.txt
+Meksyk|0|north_america/mexico.txt
+Nikaragua|0|north_america/nicaragua.txt
+Panama|0|north_america/panama.txt
+Portoryko|0|north_america/puerto_rico.txt
+Saint Lucia|0|north_america/st_lucia.txt
+Saint Vincent i Grenadyny|0|north_america/st_vincent_and_the_grenadines.txt
+Salwador|0|north_america/el_salvador.txt
+Stany Zjednoczone Ameryki|1|north_america/usa_states.txt
+Trynidad i Tobago|0|north_america/trinidad_and_tobago.txt
+Wyspy Dziewicze Stanów Zjednoczonych|0|north_america/virgin_islands.txt

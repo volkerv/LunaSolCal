@@ -1,0 +1,843 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_BANNER       BITMAP                  "res\\banner.bmp"
+
+IDB_BITMAP_MPH4         BITMAP                  "res\\moon_waxing_gibbous_50.bmp"
+
+IDB_BITMAP_MPH5         BITMAP                  "res\\moon_full_50.bmp"
+
+IDB_BITMAP_MPH6         BITMAP                  "res\\moon_waning_gibbous_50.bmp"
+
+IDB_BITMAP_MPH7         BITMAP                  "res\\moon_third_quarter_50.bmp"
+
+IDB_BITMAP_MPH8         BITMAP                  "res\\moon_waning_crescent_50.bmp"
+
+IDB_BITMAP_MPH1         BITMAP                  "res\\moon_new_50.bmp"
+
+IDB_BITMAP_MPH2         BITMAP                  "res\\moon_waxing_crescent_50.bmp"
+
+IDB_BITMAP_MPH3         BITMAP                  "res\\moon_first_quarter_50.bmp"
+
+IDB_BITMAP_MPH_SH4      BITMAP                  "res\\moon_waxing_gibbous_sh_50.bmp"
+
+IDB_BITMAP_MPH_SH5      BITMAP                  "res\\moon_full_sh_50.bmp"
+
+IDB_BITMAP_MPH_SH6      BITMAP                  "res\\moon_waning_gibbous_sh_50.bmp"
+
+IDB_BITMAP_MPH_SH7      BITMAP                  "res\\moon_third_quarter_sh_50.bmp"
+
+IDB_BITMAP_MPH_SH8      BITMAP                  "res\\moon_waning_crescent_sh_50.bmp"
+
+IDB_BITMAP_MPH_SH2      BITMAP                  "res\\moon_waxing_crescent_sh_50.bmp"
+
+IDB_BITMAP_MPH_SH3      BITMAP                  "res\\moon_first_quarter_sh_50.bmp"
+
+IDB_BITMAP_SUN          BITMAP                  "res\\sun_60.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HYPERLINK           CURSOR                  "res\\hyperlin.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\lunasol.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 353, 108
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About LunaSolCal"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "LunaSolCal",IDC_STATIC_PRODUCT_NAME,43,15,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2018 - Volker Voecking Software Engineering",IDC_STATIC_COPYRIGHT,43,28,279,8
+    DEFPUSHBUTTON   "Close",IDC_CLOSE_ABOUT,296,7,50,16,WS_GROUP
+    LTEXT           "Image Source: ",IDC_LABEL_IMAGE_SRC,43,65,74,8
+    LTEXT           "Location Data Source: ",IDC_LABEL_LOCATION_SRC,43,89,80,8
+    LTEXT           "NASA/courtesy of nasaimages.org",IDC_VALUE_IMAGE_SRC,141,65,188,8
+    LTEXT           "OpenStreetMap, CC-BY-SA 2.0",IDC_VALUE_LOCATION_SRC,141,89,100,8
+    LTEXT           "Contact:",IDC_LABEL_CONTACT,43,53,56,8
+    LTEXT           "volker.voecking@vvse.com",IDC_CONTACT_VALUE,141,53,125,8
+    LTEXT           "Einige Icons stammen von http://icons-land.com",IDC_VALUE_ICON_SRC,141,77,197,8
+    LTEXT           "Icons:",IDC_LABEL_ICON_SRC,43,77,74,8
+END
+
+IDD_LUNASOL_DIALOG DIALOGEX 0, 0, 450, 375
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "LunaSolCal"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_DATETIMEPICKER,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,62,57,142,15
+    PUSHBUTTON      "<",IDC_BUTTON_PREV,62,75,14,14
+    PUSHBUTTON      "Today",IDC_BUTTON_TODAY,94,75,77,14
+    PUSHBUTTON      ">",IDC_BUTTON_NEXT,189,75,14,14
+    COMBOBOX        IDC_COMBO_TIME_ZONE,277,57,160,76,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_CONTINENT,86,262,116,101,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_COUNTRY,86,279,116,101,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_CITY,86,296,116,85,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_STATE,86,313,116,30,CBS_DROPDOWNLIST | CBS_SORT | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_LAT,371,263,66,14,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LAT2,371,279,66,14,ES_RIGHT | ES_AUTOHSCROLL
+    PUSHBUTTON      "Check for Update...",IDC_BUTTON_UPDATE_CHECK,317,337,128,14
+    PUSHBUTTON      "&About...",IDC_BUTTON_ABOUT,317,355,128,14
+    LTEXT           "Date:",IDC_STATIC_DATE_LABEL,7,60,39,8
+    GROUPBOX        "",IDC_STATIC,4,255,442,74
+    LTEXT           "Sunrise:",IDC_STATIC_SUNRISE_LABEL,62,102,104,11
+    LTEXT           "Sunset:",IDC_STATIC_SUNSET_LABEL,62,129,104,11
+    LTEXT           "&City:",IDC_STATIC_CITY,12,298,64,8
+    LTEXT           "Countr&y:",IDC_STATIC_COUNTRY,12,281,64,8
+    LTEXT           "Moonrise:",IDC_STATIC_MOONRISE_LABEL,277,102,112,11
+    LTEXT           "Moonset:",IDC_STATIC_MOONSET_LABEL,277,129,111,11
+    LTEXT           "Latitude:",IDC_STATIC_LATITUDE,279,264,77,8
+    LTEXT           "Longitude:",IDC_STATIC_LONGITUDE,279,281,80,8
+    GROUPBOX        "",IDC_STATIC,4,93,442,161
+    CONTROL         IDB_BITMAP_MPH1,IDC_STATIC_PIC_MOON_PHASE,"Static",SS_BITMAP,231,107,33,31
+    CONTROL         IDB_BITMAP1,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE,0,0,450,50
+    LTEXT           "Timezone:",IDC_STATIC_TIMEZONE_LABEL,231,60,34,8
+    LTEXT           "&State:",IDC_STATIC_STATE,12,315,64,8
+    LTEXT           "Static",IDC_STATIC_TIMEZONE,278,76,145,8
+    LTEXT           "&Continent:",IDC_STATIC_CONTINENT,12,264,64,8
+    CONTROL         IDB_BITMAP2,IDC_STATIC_PIC_SUN,"Static",SS_BITMAP | SS_CENTERIMAGE,7,102,52,45
+    RTEXT           "6:00",IDC_STATIC_SUNRISE_VALUE,150,102,50,11
+    RTEXT           "18:00",IDC_STATIC_SUNSET_VALUE,150,129,50,11
+    RTEXT           "6:00",IDC_STATIC_MOONRISE_VALUE,386,102,50,11
+    RTEXT           "6:00",IDC_STATIC_MOONSET_VALUE,386,129,50,11
+    LTEXT           "Culmination (Altitude):",IDC_LABEL_SUN_NOON,61,161,76,8
+    RTEXT           "12:00 (88,8°)",IDC_VALUE_SUN_NOON,140,161,60,8
+    LTEXT           "Length of day:",IDC_LABEL_DAYLENGTH,61,194,62,8
+    RTEXT           "12h 00m 00s",IDC_VALUE_DAYLENGTH,141,194,59,8
+    LTEXT           "Morning/Evening Twilight:",IDC_LABEL_TWILIGHT,61,209,144,8
+    LTEXT           "Mobile Version",IDC_LABEL_LUNASOLCAL_MOBILE,8,341,277,8
+    RTEXT           "18:00",IDC_VALUE_TWILIGHT_ASTRON_END,161,219,39,8
+    LTEXT           "Nautical:",IDC_LABEL_TWILIGHT_NAUT,68,229,65,8
+    RTEXT           "18:00",IDC_VALUE_TWILIGHT_NAUT_END,161,229,39,8
+    LTEXT           "Civil:",IDC_LABEL_TWILIGHT_CIVIL,68,239,65,8
+    RTEXT           "18:00",IDC_VALUE_TWILIGHT_CIVIL_END,161,239,39,8
+    RTEXT           "18:00",IDC_VALUE_TWILIGHT_ASTRON_START,122,219,39,8
+    RTEXT           "18:00",IDC_VALUE_TWILIGHT_NAUT_START,122,229,39,8
+    RTEXT           "18:00",IDC_VALUE_TWILIGHT_CIVIL_START,122,239,39,8
+    LTEXT           "Culmination (Altitude):",IDC_LABEL_MOON_NOON,277,161,87,8
+    RTEXT           "12:00",IDC_VALUE_MOON_NOON,381,161,55,8
+    LTEXT           "Phase:",IDC_LABEL_MOON_PHASE,278,194,56,8
+    RTEXT           "Aufgehender Marmorkuchen",IDC_VALUE_MOON_PHASE,343,194,93,19
+    LTEXT           "Visibility:",IDC_LABEL_MOON_VISIBILITY,277,183,87,8
+    RTEXT           "12:00",IDC_VALUE_MOON_VISIBILITY,381,183,55,8
+    LTEXT           "Next New Moon:",IDC_LABEL_NEXT_NEW_MOON,278,223,78,8
+    RTEXT           "23.12.2011",IDC_VALUE_NEXT_NEW_MOON,353,223,83,8
+    LTEXT           "Next Full Moon:",IDC_LABEL_NEXT_FULL_MOON,278,233,70,8
+    RTEXT           "2.2.2011",IDC_VALUE_NEXT_FULL_MOON,353,233,83,8
+    LTEXT           "Azimuth:",IDC_LABEL_SUNRISE_AZIMUTH,62,114,96,8
+    LTEXT           "123°",IDC_VALUE_SUNRISE_AZIMUTH,174,114,26,8,0,WS_EX_RIGHT
+    LTEXT           "Azimuth:",IDC_LABEL_SUNSET_AZIMUTH,62,141,96,8
+    LTEXT           "123°",IDC_VALUE_SUNSET_AZIMUTH,173,141,27,8,0,WS_EX_RIGHT
+    LTEXT           "Azimuth:",IDC_LABEL_MOONRISE_AZIMUTH,277,114,96,8
+    LTEXT           "123°",IDC_VALUE_MOONRISE_AZIMUTH,410,114,26,8,0,WS_EX_RIGHT
+    LTEXT           "Azimuth:",IDC_LABEL_MOONSET_AZIMUTH,277,141,96,8
+    LTEXT           "123°",IDC_VALUE_MOONSET_AZIMUTH,409,141,27,8,0,WS_EX_RIGHT
+    LTEXT           "Declination:",IDC_LABEL_SUN_DECLINATION,61,172,88,8
+    RTEXT           "12.34",IDC_VALUE_SUN_DECLINATION,152,172,48,8
+    LTEXT           "Declination:",IDC_LABEL_MOON_DECLINATION,277,172,87,8
+    RTEXT           "12.34",IDC_VALUE_MOON_DECLINATION,381,172,55,8
+    LTEXT           "Equation of Time:",IDC_LABEL_TIME_EQUATION,61,183,88,8
+    RTEXT           "1.23",IDC_VALUE_TIME_EQUATION,152,183,48,8
+    PUSHBUTTON      "iPhone/iPad",IDC_BUTTON_IPHONE,6,355,60,14
+    PUSHBUTTON      "Android",IDC_BUTTON_ANDROID,74,355,60,14
+    PUSHBUTTON      "Windows",IDC_BUTTON_WP,142,355,60,14
+    LTEXT           "Ast:",IDC_LABEL_TWILIGHT_ASTRONOMICAL,68,219,55,8
+END
+
+IDD_UPDATE_DOWNLOAD DIALOGEX 0, 0, 283, 102
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "LunaSolCal - New Version available"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,-1,11,17,20,20
+    LTEXT           "Downloading...",IDC_STATIC_PRODUCT_NAME,41,22,211,17,SS_NOPREFIX
+    DEFPUSHBUTTON   "Abbrechen",IDCANCEL,117,77,50,16,WS_GROUP
+    CONTROL         "",IDC_PROGRESS,"msctls_progress32",PBS_SMOOTH | WS_BORDER,41,38,201,14
+    CTEXT           "Connecting...",IDC_STATIC_STATE,82,57,120,8
+END
+
+IDD_UPDATE DIALOGEX 0, 0, 283, 102
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "LunaSolCal - New Version available"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Jetzt aktualisieren",IDOK,43,77,80,16
+    DEFPUSHBUTTON   "Abbrechen",IDCANCEL,196,77,50,16,WS_GROUP
+    ICON            IDR_MAINFRAME,IDC_INSTALLED_VERSION,11,17,20,20
+    LTEXT           "Eine neue Version von LunaSolCal steht zum Download bereit.",IDC_STATIC_PRODUCT_NAME,43,22,211,17,SS_NOPREFIX
+    LTEXT           "456",IDC_STATIC_LATEST_VERSION,141,55,78,8
+    LTEXT           "123",IDC_STATIC_INSTALLED_VERSION,141,42,125,8
+    LTEXT           "Static",IDC_STATIC_VERSION_INSTALLED,45,42,81,8
+    LTEXT           "Static",IDC_STATIC_NEW_VERSION,45,56,85,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_LUNASOL_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 369
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_LUNASOL_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE LANG_SPANISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&Sobre"
+    IDS_VERSION             "Versiσn"
+    IDS_UPDATE_FAILED       "Error en la actualizaciσn.\nCσdigo de error: %1!d!"
+    IDS_UP_TO_DATE          "LunaSolCal estα actualizado."
+    IDS_FEEDBACK_URL        "https://vvse.com/cur/en/products/LunaSolCal/feedback.html"
+    IDS_MOONPHASE_NEWMOON   "Luna nueva"
+    IDS_MOONPHASE_WAXING_CRESCENT "Media creciente"
+    IDS_MOONPHASE_FIRST_QUARTER "Cuarto creciente"
+    IDS_MOONPHASE_WAXING_GIBBOUS "Cuarto creciente Gibbous"
+    IDS_MOONPHASE_FULLMOON  "Luna llena"
+    IDS_MOONPHASE_WANING_GIBBOUS "Menguante Gibbous"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MOONPHASE_THIRD_QUARTER "Ultimo cuarto"
+    IDS_MOONPHASE_WANING_CRESCENT "Media menguante"
+    IDS_AFRICA              "Αfrica"
+    IDS_ASIA                "Asia"
+    IDS_EUROPE              "Europa"
+    IDS_NORTH_AMERICA       "Amιrica del Norte"
+    IDS_SOUTH_AMERICA       "Amιrica del Sur"
+    IDS_OCEANIA             "Oceania"
+    IDS_TODAY               "Hoy"
+    IDS_DATE_LABEL          "Fecha:"
+    IDS_TIMEZONE_LABEL      "Zona horaria:"
+    IDS_SUNRISE_LABEL       "Amanecer:"
+    IDS_SUNSET_LABEL        "Ocaso:"
+    IDS_MOONRISE_LABEL      "Salida:"
+    IDS_MOONSET_LABEL       "Puesta:"
+    IDS_SUNNOON_LABEL       "Culminaciσn (Altitude):"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MOONNOON_LABEL      "Culminaciσn (Altitude):"
+    IDS_TWILIGHT            "El comienza:"
+    IDS_TWLIGHT_ASTRONOMICAL "Astronσmico:"
+    IDS_TWLIGHT_NAUTICAL    "Nαutico:"
+    IDS_TWLIGHT_CIVIL       "Civil:"
+    IDS_DAYLENGTH           "Duraciσn:"
+    IDS_MOON_VISIBILITY     "Visibilidad:"
+    IDS_MOON_PHASE          "Fase:"
+    IDS_NEXT_NEW_MOON       "Prσxima luna nueva:"
+    IDS_NEXT_FULL_MOON      "Prσxima luna llena:"
+    IDS_CONTINENT           "Continente:"
+    IDS_COUNTRY             "Paνs:"
+    IDS_STATE               "Estado:"
+    IDS_STATE_GERMANY       "Estado federal:"
+    IDS_STATE_USA           "Estado:"
+    IDS_STATE_FRANCE        "Regiσn:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LATITUDE            "Latitud:"
+    IDS_LONGITUDE           "Longitud:"
+    IDS_ABOUT               "Sobre..."
+    IDS_UPDATE_CHECK        "Buscar actualizaciones..."
+    IDS_CITY                "Ciudad:"
+    IDS_FEEDBACK            "Comentarios..."
+    IDS_ABOUT_TITLE         "Sobre LunaSolCal "
+    IDS_ABOUT_CONTACT       "Contacto:"
+    IDS_ABOUT_IMAGE_SRC     "Imαgenes:"
+    IDS_ABOUT_ICONS         "Iconos:"
+    IDS_ABOUT_LOCATION_SRC  "Datos de ubicaciσn: "
+    IDS_UPDATE_DOWNLOADING  "Descargando actualizaciσn..."
+    IDS_UPDATE_CONNECTING   "Conectαndose..."
+    IDS_UPDATE_TITLE        "LunaSolCal - Nueva versiσn disponible"
+    IDS_UPDATE_NOW          "Actualizar ahora"
+    IDS_UPDATE_INSTALLED_VERSION "Versiσn instalada:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPDATE_NEW_VERSION  "La ϊltima versiσn:"
+    IDS_UPDATE_NEW_VERSION_AVAILABLE "Una nueva versiσn estα disponible..."
+    IDS_ALTITUDE_LABEL      "Altitud:"
+    IDS_AZIMUTH_LABEL       "Azimut:"
+    IDS_ICON_SOURCE         "Algunos iconos de  http://icons-land.com"
+    IDS_CLOSE               "Cerrar"
+    IDS_SUNDECLINATION_LABEL "Declinaciσn:"
+    IDS_TIMEEQUATION_LABEL  "Ecuaciσn de tiempo:"
+    IDS_LUNASOLCAL_MOBILE   "LunaSolCal tambiιn estα disponible en estos dispositivos:"
+    IDS_ITUNES_URL          "https://itunes.apple.com/es/app/lunasolcal/id390175338?mt=8"
+    IDS_ANDROID_MARKET_URL  "https://market.android.com/details?id=com.vvse.lunasolcal&feature=search_result"
+    IDS_WP_MARKET_URL       "https://apps.microsoft.com/windows/app/lunasolcal/e46f4a15-2355-4d79-b8ee-7da18154b45a"
+END
+
+#endif    // Spanish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+LANGUAGE LANG_FRENCH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&ΐ propos..."
+    IDS_VERSION             "Version"
+    IDS_UPDATE_FAILED       "La mise ΰ jour a ιchouι.\nCode d’erreur: %1!d!"
+    IDS_UP_TO_DATE          "Il n'ya pas de nouvelle version disponible."
+    IDS_FEEDBACK_URL        "https://vvse.com/cur/en/products/LunaSolCal/feedback.html"
+    IDS_MOONPHASE_NEWMOON   "Nouvelle Lune"
+    IDS_MOONPHASE_WAXING_CRESCENT "Premier Croissant"
+    IDS_MOONPHASE_FIRST_QUARTER "Premier Quartier"
+    IDS_MOONPHASE_WAXING_GIBBOUS "Lune Gibbeuse"
+    IDS_MOONPHASE_FULLMOON  "Pleine Lune"
+    IDS_MOONPHASE_WANING_GIBBOUS "Lune Gibbeuse"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MOONPHASE_THIRD_QUARTER "Dernier Quartier"
+    IDS_MOONPHASE_WANING_CRESCENT "Dernier Croissant"
+    IDS_AFRICA              "L'Afrique"
+    IDS_ASIA                "L'Asie"
+    IDS_EUROPE              "L'Europe"
+    IDS_NORTH_AMERICA       "L'Amιrique du Nord"
+    IDS_SOUTH_AMERICA       "L'Amιrique du Sud"
+    IDS_OCEANIA             "L'Ocιanie"
+    IDS_TODAY               "Aujourd'hui"
+    IDS_DATE_LABEL          "Date:"
+    IDS_TIMEZONE_LABEL      "Fuseau horaire:"
+    IDS_SUNRISE_LABEL       "Lever du soleil:"
+    IDS_SUNSET_LABEL        "Coucher du soleil:"
+    IDS_MOONRISE_LABEL      "Lever de la lune:"
+    IDS_MOONSET_LABEL       "Coucher de la lune:"
+    IDS_SUNNOON_LABEL       "Culmination (Altitude):"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MOONNOON_LABEL      "Culmination (Altitude):"
+    IDS_TWILIGHT            "Crιpuscule (Dιbut/Terminι):"
+    IDS_TWLIGHT_ASTRONOMICAL "Astronomique:"
+    IDS_TWLIGHT_NAUTICAL    "Nautique:"
+    IDS_TWLIGHT_CIVIL       "Civil:"
+    IDS_DAYLENGTH           "Durιe du jour:"
+    IDS_MOON_VISIBILITY     "Visibilitι:"
+    IDS_MOON_PHASE          "Phase:"
+    IDS_NEXT_NEW_MOON       "Proch. Nouvelle Lune:"
+    IDS_NEXT_FULL_MOON      "Proch. Pleine Lune:"
+    IDS_CONTINENT           "Continent:"
+    IDS_COUNTRY             "Pays:"
+    IDS_STATE               "Pays:"
+    IDS_STATE_GERMANY       "Etat fιdιral:"
+    IDS_STATE_USA           "Etat:"
+    IDS_STATE_FRANCE        "Rιgion:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LATITUDE            "Latitude:"
+    IDS_LONGITUDE           "Longitude:"
+    IDS_ABOUT               "ΐ propos..."
+    IDS_UPDATE_CHECK        "Rechercher des mises ΰ jour..."
+    IDS_CITY                "Ville:"
+    IDS_FEEDBACK            "Critique..."
+    IDS_ABOUT_TITLE         "ΐ propos LunaSolCal "
+    IDS_ABOUT_CONTACT       "Contact:"
+    IDS_ABOUT_IMAGE_SRC     "Images: "
+    IDS_ABOUT_ICONS         "Icτnes:"
+    IDS_ABOUT_LOCATION_SRC  "Les listes des villes: "
+    IDS_UPDATE_DOWNLOADING  "Tιlιchargement nouvelle version..."
+    IDS_UPDATE_CONNECTING   "Connexion..."
+    IDS_UPDATE_TITLE        "LunaSolCal - Nouvelle version disponible"
+    IDS_UPDATE_NOW          "Mettre ΰ jour maintenant"
+    IDS_UPDATE_INSTALLED_VERSION "La version installιe:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPDATE_NEW_VERSION  "La version la plus rιcente:"
+    IDS_UPDATE_NEW_VERSION_AVAILABLE "Une nouvelle version est disponible..."
+    IDS_ALTITUDE_LABEL      "Altitude:"
+    IDS_AZIMUTH_LABEL       "Azimut:"
+    IDS_ICON_SOURCE         "Certaines icτnes de http://icons-land.com"
+    IDS_CLOSE               "Fermer"
+    IDS_SUNDECLINATION_LABEL "Dιclinaison:"
+    IDS_TIMEEQUATION_LABEL  "Ιquation du temps:"
+    IDS_LUNASOLCAL_MOBILE   "LunaSolCal est ιgalement disponible sur ces appareils:"
+    IDS_ITUNES_URL          "https://itunes.apple.com/fr/app/lunasolcal/id390175338?mt=8"
+    IDS_ANDROID_MARKET_URL  "https://market.android.com/details?id=com.vvse.lunasolcal&feature=search_result"
+    IDS_WP_MARKET_URL       "https://apps.microsoft.com/windows/app/lunasolcal/e46f4a15-2355-4d79-b8ee-7da18154b45a"
+END
+
+#endif    // French resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\lunasol.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&άber LunaSolCal..."
+    IDS_VERSION             "Version"
+    IDS_UPDATE_FAILED       "Die Softwareaktualisierung ist fehlgeschlagen.\nFehlernummer: %1!d!"
+    IDS_UP_TO_DATE          "Es ist keine neue Version verfόgbar."
+    IDS_FEEDBACK_URL        "https://vvse.com/cur/de/products/LunaSolCal/feedback.html"
+    IDS_MOONPHASE_NEWMOON   "Neumond"
+    IDS_MOONPHASE_WAXING_CRESCENT "Zunehmende Sichel"
+    IDS_MOONPHASE_FIRST_QUARTER "Erstes Viertel"
+    IDS_MOONPHASE_WAXING_GIBBOUS "Zunehmender Mond"
+    IDS_MOONPHASE_FULLMOON  "Vollmond"
+    IDS_MOONPHASE_WANING_GIBBOUS "Abnehmender Mond"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MOONPHASE_THIRD_QUARTER "Drittes Viertel"
+    IDS_MOONPHASE_WANING_CRESCENT "Abnehmende Sichel"
+    IDS_AFRICA              "Afrika"
+    IDS_ASIA                "Asien"
+    IDS_EUROPE              "Europa"
+    IDS_NORTH_AMERICA       "Nordamerika"
+    IDS_SOUTH_AMERICA       "Sόdamerika"
+    IDS_OCEANIA             "Ozeanien"
+    IDS_TODAY               "Heute"
+    IDS_DATE_LABEL          "Datum:"
+    IDS_TIMEZONE_LABEL      "Zeitzone:"
+    IDS_SUNRISE_LABEL       "Sonnenaufgang:"
+    IDS_SUNSET_LABEL        "Sonnenuntergang:"
+    IDS_MOONRISE_LABEL      "Mondaufgang:"
+    IDS_MOONSET_LABEL       "Monduntergang:"
+    IDS_SUNNOON_LABEL       "Kulmination (Hφhe):"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MOONNOON_LABEL      "Kulmination (Hφhe):"
+    IDS_TWILIGHT            "Dδmmerungsbeginn / Dδmmerungsende:"
+    IDS_TWLIGHT_ASTRONOMICAL "Astronomisch:"
+    IDS_TWLIGHT_NAUTICAL    "Nautisch:"
+    IDS_TWLIGHT_CIVIL       "Bόrgerlich:"
+    IDS_DAYLENGTH           "Tageslδnge:"
+    IDS_MOON_VISIBILITY     "Sichtbar:"
+    IDS_MOON_PHASE          "Phase:"
+    IDS_NEXT_NEW_MOON       "Nδchster Neumond:"
+    IDS_NEXT_FULL_MOON      "Nδchster Vollmond:"
+    IDS_CONTINENT           "Kontinent:"
+    IDS_COUNTRY             "Land:"
+    IDS_STATE               "Land:"
+    IDS_STATE_GERMANY       "Bundesland:"
+    IDS_STATE_USA           "Bundesstaat:"
+    IDS_STATE_FRANCE        "Region:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LATITUDE            "Geographische Breite:"
+    IDS_LONGITUDE           "Geographische Lδnge:"
+    IDS_ABOUT               "άber..."
+    IDS_UPDATE_CHECK        "Update suchen..."
+    IDS_CITY                "Stadt:"
+    IDS_FEEDBACK            "Feedback..."
+    IDS_ABOUT_TITLE         "άber LunaSolCal "
+    IDS_ABOUT_CONTACT       "Kontakt:"
+    IDS_ABOUT_IMAGE_SRC     "Bildquelle: "
+    IDS_ABOUT_ICONS         "Icons:"
+    IDS_ABOUT_LOCATION_SRC  "Quelle der Ortsdaten: "
+    IDS_UPDATE_DOWNLOADING  "Die neue Version von LunaSolCal wird heruntergeladen:"
+    IDS_UPDATE_CONNECTING   "Verbindungsaufbau..."
+    IDS_UPDATE_TITLE        "LunaSolCal - Neue Version verfόgbar"
+    IDS_UPDATE_NOW          "Jetzt aktualisieren"
+    IDS_UPDATE_INSTALLED_VERSION "Installierte Version:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPDATE_NEW_VERSION  "Neueste Version:"
+    IDS_UPDATE_NEW_VERSION_AVAILABLE "Eine neue Version ist verfόgbar..."
+    IDS_ALTITUDE_LABEL      "Hφhe:"
+    IDS_AZIMUTH_LABEL       "Azimut:"
+    IDS_ICON_SOURCE         "Einige Icons stammen von http://icons-land.com"
+    IDS_CLOSE               "Schlieίen"
+    IDS_SUNDECLINATION_LABEL "Deklination:"
+    IDS_TIMEEQUATION_LABEL  "Zeitgleichung:"
+    IDS_LUNASOLCAL_MOBILE   "LunaSolCal ist auch in diesen App Stores verfόgbar:"
+    IDS_ITUNES_URL          "https://itunes.apple.com/de/app/lunasolcal/id390175338?mt=8"
+    IDS_ANDROID_MARKET_URL  "https://market.android.com/details?id=com.vvse.lunasolcal&feature=search_result"
+    IDS_WP_MARKET_URL       "https://apps.microsoft.com/windows/app/lunasolcal/e46f4a15-2355-4d79-b8ee-7da18154b45a"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About LunaSolCal..."
+    IDS_VERSION             "Version"
+    IDS_UPDATE_FAILED       "Update failed.\nError code: %1!d!"
+    IDS_UP_TO_DATE          "There is no new version available."
+    IDS_FEEDBACK_URL        "https://vvse.com/cur/en/products/LunaSolCal/feedback.html"
+    IDS_MOONPHASE_NEWMOON   "New Moon"
+    IDS_MOONPHASE_WAXING_CRESCENT "Waxing Crescent"
+    IDS_MOONPHASE_FIRST_QUARTER "First Quarter"
+    IDS_MOONPHASE_WAXING_GIBBOUS "Waxing Gibbous"
+    IDS_MOONPHASE_FULLMOON  "Full Moon"
+    IDS_MOONPHASE_WANING_GIBBOUS "Waning Gibbous"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MOONPHASE_THIRD_QUARTER "Last Quarter"
+    IDS_MOONPHASE_WANING_CRESCENT "Waning Crescent"
+    IDS_AFRICA              "Africa"
+    IDS_ASIA                "Asia"
+    IDS_EUROPE              "Europe"
+    IDS_NORTH_AMERICA       "North America"
+    IDS_SOUTH_AMERICA       "South America"
+    IDS_OCEANIA             "Oceania"
+    IDS_TODAY               "Today"
+    IDS_DATE_LABEL          "Date:"
+    IDS_TIMEZONE_LABEL      "Timezone:"
+    IDS_SUNRISE_LABEL       "Sunrise:"
+    IDS_SUNSET_LABEL        "Sunset:"
+    IDS_MOONRISE_LABEL      "Moonrise:"
+    IDS_MOONSET_LABEL       "Moonset:"
+    IDS_SUNNOON_LABEL       "Culmination (Altitude):"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MOONNOON_LABEL      "Culmination (Altitude):"
+    IDS_TWILIGHT            "Morning/Evening Twilight:"
+    IDS_TWLIGHT_ASTRONOMICAL "Astronomical:"
+    IDS_TWLIGHT_NAUTICAL    "Nautical:"
+    IDS_TWLIGHT_CIVIL       "Civil:"
+    IDS_DAYLENGTH           "Length of day:"
+    IDS_MOON_VISIBILITY     "Visibility:"
+    IDS_MOON_PHASE          "Phase:"
+    IDS_NEXT_NEW_MOON       "Next New Moon:"
+    IDS_NEXT_FULL_MOON      "Next Full Moon:"
+    IDS_CONTINENT           "Continent:"
+    IDS_COUNTRY             "Country:"
+    IDS_STATE               "State:"
+    IDS_STATE_GERMANY       "Federal State:"
+    IDS_STATE_USA           "State:"
+    IDS_STATE_FRANCE        "Region:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LATITUDE            "Latitude:"
+    IDS_LONGITUDE           "Longitude:"
+    IDS_ABOUT               "About..."
+    IDS_UPDATE_CHECK        "Check for Update..."
+    IDS_CITY                "City:"
+    IDS_FEEDBACK            "Feedback..."
+    IDS_ABOUT_TITLE         "About LunaSolCal "
+    IDS_ABOUT_CONTACT       "Contact:"
+    IDS_ABOUT_IMAGE_SRC     "Image Source: "
+    IDS_ABOUT_ICONS         "Icons:"
+    IDS_ABOUT_LOCATION_SRC  "Location Data Source: "
+    IDS_UPDATE_DOWNLOADING  "Downloading new version..."
+    IDS_UPDATE_CONNECTING   "Connecting..."
+    IDS_UPDATE_TITLE        "LunaSolCal - New Version available"
+    IDS_UPDATE_NOW          "Update now"
+    IDS_UPDATE_INSTALLED_VERSION "Installed Version:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPDATE_NEW_VERSION  "Latest Version:"
+    IDS_UPDATE_NEW_VERSION_AVAILABLE "A new version is available..."
+    IDS_ALTITUDE_LABEL      "Altitude:"
+    IDS_AZIMUTH_LABEL       "Azimuth:"
+    IDS_ICON_SOURCE         "Some Icons from http://icons-land.com"
+    IDS_CLOSE               "Close"
+    IDS_SUNDECLINATION_LABEL "Declination:"
+    IDS_TIMEEQUATION_LABEL  "Equation of Time:"
+    IDS_LUNASOLCAL_MOBILE   "LunaSolCal (with more detailed information) is also available in these app stores:"
+    IDS_ITUNES_URL          "https://itunes.apple.com/en/app/lunasolcal/id390175338?mt=8"
+    IDS_ANDROID_MARKET_URL  "https://market.android.com/details?id=com.vvse.lunasolcal&feature=search_result"
+    IDS_WP_MARKET_URL       "https://apps.microsoft.com/windows/app/lunasolcal/e46f4a15-2355-4d79-b8ee-7da18154b45a"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Greek (Greece) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ELL)
+LANGUAGE LANG_GREEK, SUBLANG_DEFAULT
+#pragma code_page(1253)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&Περί LunaSolCal..."
+    IDS_VERSION             "Έκδοση"
+    IDS_UPDATE_FAILED       "Η ενημέρωση απέτυχε.\nΚωδικός σφάλματος: %1!d!"
+    IDS_UP_TO_DATE          "Δεν υπάρχει νέα έκδοση διαθέσιμη."
+    IDS_FEEDBACK_URL        "https://vvse.com/cur/de/products/LunaSolCal/feedback.html"
+    IDS_MOONPHASE_NEWMOON   "Νέα Σελήνη"
+    IDS_MOONPHASE_WAXING_CRESCENT "Αύξων μηνίσκος"
+    IDS_MOONPHASE_FIRST_QUARTER "Πρώτο τέταρτο"
+    IDS_MOONPHASE_WAXING_GIBBOUS "Αύξουσα κύρτωση"
+    IDS_MOONPHASE_FULLMOON  "Πανσέληνος"
+    IDS_MOONPHASE_WANING_GIBBOUS "Φθίνουσα κύρτωση"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MOONPHASE_THIRD_QUARTER "Τελευταίο τέταρτο"
+    IDS_MOONPHASE_WANING_CRESCENT "Φθίνων μηνίσκος"
+    IDS_AFRICA              "Αφρική"
+    IDS_ASIA                "Ασία"
+    IDS_EUROPE              "Ευρώπη"
+    IDS_NORTH_AMERICA       "Βόρεια Αμερική"
+    IDS_SOUTH_AMERICA       "Νότια Αμερική"
+    IDS_OCEANIA             "Ωκεανία"
+    IDS_TODAY               "Σήμερα"
+    IDS_DATE_LABEL          "Ημερομηνία:"
+    IDS_TIMEZONE_LABEL      "Ζώνη ώρας:"
+    IDS_SUNRISE_LABEL       "Ανατολή Ηλίου:"
+    IDS_SUNSET_LABEL        "Δύση Ηλίου:"
+    IDS_MOONRISE_LABEL      "Ανατολή Σελήνης:"
+    IDS_MOONSET_LABEL       "Δύση Σελήνης:"
+    IDS_SUNNOON_LABEL       "Αποκορύφωμα (ύψος):"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MOONNOON_LABEL      "Αποκορύφωμα (ύψος):"
+    IDS_TWILIGHT            "Λυκόφως πρωί / βράδυ:"
+    IDS_TWLIGHT_ASTRONOMICAL "Αστρονομικό:"
+    IDS_TWLIGHT_NAUTICAL    "Ναυτικό:"
+    IDS_TWLIGHT_CIVIL       "Αστικό:"
+    IDS_DAYLENGTH           "Διάρκεια ημέρας:"
+    IDS_MOON_VISIBILITY     "Ορατότητα:"
+    IDS_MOON_PHASE          "Φάση:"
+    IDS_NEXT_NEW_MOON       "Επόμ. νέα Σελήνη:"
+    IDS_NEXT_FULL_MOON      "Επόμ. πανσέληνος:"
+    IDS_CONTINENT           "Ήπειρος:"
+    IDS_COUNTRY             "Χώρα:"
+    IDS_STATE               "Πολιτεία:"
+    IDS_STATE_GERMANY       "Ομόσπονδο κρατίδιο:"
+    IDS_STATE_USA           "Πολιτεία:"
+    IDS_STATE_FRANCE        "Περιοχή:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LATITUDE            "Γεωγραφικό πλάτος:"
+    IDS_LONGITUDE           "Γεωγραφικό μήκος:"
+    IDS_ABOUT               "Περί..."
+    IDS_UPDATE_CHECK        "Έλεχος για ενημερώσεις..."
+    IDS_CITY                "Πόλη:"
+    IDS_FEEDBACK            "Αποστολή σχολίων"
+    IDS_ABOUT_TITLE         "Περί LunaSolCal "
+    IDS_ABOUT_CONTACT       "Επικοινωνία:"
+    IDS_ABOUT_IMAGE_SRC     "Πηγή εικόνων: "
+    IDS_ABOUT_ICONS         "Εικονίδια:"
+    IDS_ABOUT_LOCATION_SRC  "Πηγή δεδομένων τόπων: "
+    IDS_UPDATE_DOWNLOADING  "Λήψη νέας έκδοσης..."
+    IDS_UPDATE_CONNECTING   "Σύνδεση..."
+    IDS_UPDATE_TITLE        "LunaSolCal - Νέα έκδοση διαθέσιμη"
+    IDS_UPDATE_NOW          "Ενημέρωση τώρα"
+    IDS_UPDATE_INSTALLED_VERSION "Εγκατεστημένη έκδοση:"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_UPDATE_NEW_VERSION  "Τελευταία έκδοση:"
+    IDS_UPDATE_NEW_VERSION_AVAILABLE "Μια νέα έκδοση είναι διαθέσιμη..."
+    IDS_ALTITUDE_LABEL      "Υψόμετρο:"
+    IDS_AZIMUTH_LABEL       "Αζιμούθιο:"
+    IDS_ICON_SOURCE         "Μερικά εικονίδια από http://icons-land.com"
+    IDS_CLOSE               "Κλείσιμο"
+    IDS_SUNDECLINATION_LABEL "Απόκλιση:"
+    IDS_TIMEEQUATION_LABEL  "Εξίσωση χρόνου:"
+    IDS_LUNASOLCAL_MOBILE   "Το LunaSolCal διατείθετε επίσης για τις φορητές συσκευές:"
+    IDS_ITUNES_URL          "https://itunes.apple.com/de/app/lunasolcal/id390175338?mt=8"
+    IDS_ANDROID_MARKET_URL  "https://market.android.com/details?id=com.vvse.lunasolcal&feature=search_result"
+    IDS_WP_MARKET_URL       "https://apps.microsoft.com/windows/app/lunasolcal/e46f4a15-2355-4d79-b8ee-7da18154b45a"
+END
+
+#endif    // Greek (Greece) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#include "res\lunasol.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

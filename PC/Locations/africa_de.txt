@@ -1,0 +1,58 @@
+Ägypten|0|africa/egypt.txt
+Algerien|0|africa/algeria.txt
+Angola|0|africa/angola.txt
+Äquatorialguinea|0|africa/equatorial_guinea.txt
+Äthiopien|0|africa/ethiopia.txt
+Benin|0|africa/benin.txt
+Botsuana|0|africa/botswana.txt
+Burkina Faso|0|africa/burkina_faso.txt
+Burundi|0|africa/burundi.txt
+Dschibuti|0|africa/djibouti.txt
+Elfenbeinküste|0|africa/ivory_coast.txt
+Eritrea|0|africa/eritrea.txt
+Gabon|0|africa/gabon.txt
+Gambia|0|africa/gambia.txt
+Ghana|0|africa/ghana.txt
+Guinea|0|africa/guinea.txt
+Guinea-Bissau|0|africa/guinea-bissau.txt
+Kamerun|0|africa/cameroon.txt
+Kanarische Inseln|0|africa/canary_islands.txt
+Kap Verde|0|africa/cape_verde.txt
+Kenia|0|africa/kenya.txt
+Komoren|0|africa/comoros.txt
+Kongo|0|africa/congo.txt
+Kongo, Demokratische Republik|0|africa/democratic_republic_of_the_congo.txt
+Lesotho|0|africa/lesotho.txt
+Liberia|0|africa/liberia.txt
+Libyen|0|africa/libya.txt
+Madagaskar|0|africa/madagascar.txt
+Malawi|0|africa/malawi.txt
+Mali|0|africa/mali.txt
+Marokko|0|africa/morocco.txt
+Mauretanien|0|africa/mauritania.txt
+Mauritius|0|africa/mauritius.txt
+Mayotte|0|africa/mayotte.txt
+Mosambik|0|africa/mozambique.txt
+Namibia|0|africa/namibia.txt
+Niger|0|africa/niger.txt
+Nigeria|0|africa/nigeria.txt
+Reunion|0|africa/reunion.txt
+Ruanda|0|africa/rwanda.txt
+Sambia|0|africa/zambia.txt
+Sao Tome und Principe|0|africa/sao_tome_and_principe.txt
+Senegal|0|africa/senegal.txt
+Seychellen|0|africa/seychelles.txt
+Sierra Leone|0|africa/sierra_leone.txt
+Simbabwe|0|africa/zimbabwe.txt
+Somalia|0|africa/somalia.txt
+St. Helena|0|africa/st_helena.txt
+Südafrika|0|africa/south_africa.txt
+Sudan|0|africa/sudan.txt
+Swasiland|0|africa/swaziland.txt
+Tansania|0|africa/united_republic_of_tanzania.txt
+Togo|0|africa/togo.txt
+Tschad|0|africa/chad.txt
+Tunesien|0|africa/tunisia.txt
+Uganda|0|africa/uganda.txt
+Westsahara|0|africa/western_sahara.txt
+Zentralafrikanische Republik|0|africa/central_african_republic.txt

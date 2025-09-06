@@ -1,0 +1,31 @@
+﻿Αγία Λουκία|0|north_america/st_lucia.txt
+Άγιος Βικέντιος και Γρεναδίνες|0|north_america/st_vincent_and_the_grenadines.txt
+Άγιος Χριστόφορος και Νέβις|0|north_america/federation_of_saint_kitts_and_nevis.txt
+Αϊτή|0|north_america/haiti.txt
+Αντίγκουα και Μπαρμπούντα|0|north_america/antigua_and_barbuda.txt
+Βερμούδες|0|north_america/bermuda.txt
+Βρετανικοί Παρθένοι Νήσοι|0|north_america/british_virgin_islands.txt
+Γουαδελούπη|0|north_america/guadeloupe.txt
+Γουατεμάλα|0|north_america/guatemala.txt
+Γρενάδα|0|north_america/grenada.txt
+Γροιλανδία|0|north_america/greenland.txt
+Δομινίκα|0|north_america/dominica.txt
+Δομινικανή Δημοκρατία|0|north_america/dominican_republic.txt
+Ελ Σαλβαδόρ|0|north_america/el_salvador.txt
+Ηνωμένες Πολιτείες Αμερικής|1|north_america/usa_states.txt
+Καναδάς|0|north_america/canada.txt
+Κόστα Ρίκα|0|north_america/costa_rica.txt
+Κούβα|0|north_america/cuba.txt
+Μαρτινίκα|0|north_america/martinique.txt
+Μεξικό|0|north_america/mexico.txt
+Μπαρμπάντος|0|north_america/barbados.txt
+Μπαχάμες|0|north_america/bahamas.txt
+Μπελίζ|0|north_america/belize.txt
+Νικαράγουα|0|north_america/nicaragua.txt
+Ολλανδικές Αντίλλες|0|north_america/netherlands_antilles.txt
+Ονδούρα|0|north_america/honduras.txt
+Παναμάς|0|north_america/panama.txt
+Παρθένοι Νήσοι|0|north_america/virgin_islands.txt
+Πουέρτο Ρίκο|0|north_america/puerto_rico.txt
+Τζαμάϊκα|0|north_america/jamaica.txt
+Τρινιντάντ και Τομπάγκο|0|north_america/trinidad_and_tobago.txt

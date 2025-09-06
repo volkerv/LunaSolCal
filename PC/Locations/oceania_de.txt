@@ -1,0 +1,18 @@
+Australien|0|oceania/australia.txt
+Cookinseln|0|oceania/cook_islands.txt
+Fidschi|0|oceania/fiji.txt
+Französisch-Polynesien|0|oceania/french_polynesia.txt
+Guam|0|oceania/guam.txt
+Kiribati|0|oceania/kiribati.txt
+Marshallinseln|0|oceania/marshall_islands.txt
+Mikronesien|0|oceania/federated_states_of_micronesia.txt
+Neukaledonien|0|oceania/new_caledonia.txt
+Neuseeland|0|oceania/new_zealand.txt
+Niue|0|oceania/niue.txt
+Norfolkinseln|0|oceania/norfolk_island.txt
+Palau|0|oceania/republic_of_palau.txt
+Papua-Neuguinea|0|oceania/papua_new_guinea.txt
+Salomonen Islands|0|oceania/solomon_islands.txt
+Samoa|0|oceania/independent_state_of_samoa.txt
+Vanuatu|0|oceania/vanuatu.txt
+Wallis und Futuna|0|oceania/wallis_and_futuna.txt
